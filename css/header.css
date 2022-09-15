@@ -1,0 +1,48 @@
+header {
+    display: flex;
+
+    align-items: center; 
+    justify-content: center;
+
+    width: 100vw;
+    height: 6em;
+
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 25px;
+    height: 23px;
+}
+
+header ul {
+    display: flex;
+
+    position: absolute;
+
+    right: 6vw;
+}
+
+header button {
+    width: 2.5em;
+    height: 2.5em;
+
+    margin: .1em;
+
+    border: 1px solid black;
+
+    background-color: white;
+}
+
+header a {
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: black;
+}
+
+@media (max-width: 500px) {
+    header button {
+        display: none;
+    }
+}
